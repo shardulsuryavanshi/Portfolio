@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Shardul Suryavanshi — Business Analytics Portfolio" />
+    <title>Shardul Suryavanshi | Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <a class="logo" href="#top">Shardul</a>
+        <button class="nav__toggle" aria-label="Open menu" id="menuBtn">☰</button>
+
+        <div class="nav__links" id="navLinks">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+          <a class="btn btn--small" href="./assets/Shardul_Suryavanshi_Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <!-- HERO -->
+      <section class="hero container">
+        <div class="hero__left">
+          <p class="eyebrow">MS Business Analytics • ASU (W. P. Carey)</p>
+          <h1>
+            I build <span class="accent">data-driven</span> solutions and
+            dashboards that help teams decide faster.
+          </h1>
+          <p class="subtext">
+            Portfolio featuring analytics projects (Python, SQL, Power BI, Tableau),
+            optimization, and applied capstone work.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn btn--ghost" href="#contact">Contact</a>
+          </div>
+
+          <div class="hero__meta">
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <span class="dot">•</span>
+            <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+            <span class="dot">•</span>
+            <a href="mailto:youremail@example.com">youremail@example.com</a>
+          </div>
+        </div>
+
+        <div class="hero__right">
+          <div class="card">
+            <p class="card__title">Currently</p>
+            <ul class="list">
+              <li>📌 Seeking Data/Business Analyst roles (US)</li>
+              <li>🧠 Focus: ML, dashboards, decision analysis</li>
+              <li>⚙️ Tools: Python • SQL • Power BI • Tableau</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <p class="card__title">Highlights</p>
+            <ul class="list">
+              <li>✅ Capstone: Wearables & recovery analytics</li>
+              <li>✅ Optimization & prescriptive analytics work</li>
+              <li>✅ Forecasting + model evaluation projects</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section container">
+        <h2>About</h2>
+        <p>
+          I’m Shardul Suryavanshi, a Business Analytics graduate student at Arizona State University.
+          I like turning messy data into clear insights, building dashboards, and developing models that
+          support real decisions.
+        </p>
+
+        <div class="grid grid--2">
+          <div class="card">
+            <p class="card__title">What I do</p>
+            <ul class="list">
+              <li>Data analysis & storytelling</li>
+              <li>Dashboards (Power BI / Tableau)</li>
+              <li>ML + validation (classification, forecasting)</li>
+              <li>Optimization / decision analysis</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <p class="card__title">What I’m looking for</p>
+            <ul class="list">
+              <li>Business Analyst / Data Analyst roles</li>
+              <li>Product / Operations analytics</li>
+              <li>Healthcare / fitness / consumer data</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section container">
+        <div class="section__head">
+          <h2>Projects</h2>
+          <p class="muted">Pick 3–6 best projects. Keep each concise with impact + tech.</p>
+        </div>
+
+        <div class="grid grid--3" id="projectGrid">
+          <!-- Project Card -->
+          <article class="project card">
+            <h3>Wearables Recovery Analytics (Capstone)</h3>
+            <p class="muted">
+              Built a pipeline to analyze recovery signals, compare devices, and model performance trends.
+            </p>
+            <div class="chips">
+              <span class="chip">Python</span>
+              <span class="chip">Pandas</span>
+              <span class="chip">XGBoost</span>
+              <span class="chip">Time Series</span>
+            </div>
+            <div class="project__links">
+              <a href="#" target="_blank" rel="noreferrer">Repo</a>
+              <a href="#" target="_blank" rel="noreferrer">Demo</a>
+            </div>
+          </article>
+
+          <article class="project card">
+            <h3>Customer Churn Prediction</h3>
+            <p class="muted">
+              Trained ensemble models, tuned hyperparameters, and improved recall for churn detection.
+            </p>
+            <div class="chips">
+              <span class="chip">Python</span>
+              <span class="chip">Random Forest</span>
+              <span class="chip">XGBoost</span>
+              <span class="chip">Model Eval</span>
+            </div>
+            <div class="project__links">
+              <a href="#" target="_blank" rel="noreferrer">Repo</a>
+              <a href="#" target="_blank" rel="noreferrer">Write-up</a>
+            </div>
+          </article>
+
+          <article class="project card">
+            <h3>Optimization Case Study</h3>
+            <p class="muted">
+              Built a prescriptive model to recommend decisions under constraints and uncertainty.
+            </p>
+            <div class="chips">
+              <span class="chip">Excel Solver</span>
+              <span class="chip">Decision Analysis</span>
+              <span class="chip">Optimization</span>
+            </div>
+            <div class="project__links">
+              <a href="#" target="_blank" rel="noreferrer">File</a>
+              <a href="#" target="_blank" rel="noreferrer">Summary</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="section container">
+        <h2>Skills</h2>
+        <div class="grid grid--3">
+          <div class="card">
+            <p class="card__title">Analytics</p>
+            <div class="chips">
+              <span class="chip">EDA</span><span class="chip">A/B Testing</span><span class="chip">Forecasting</span>
+              <span class="chip">Optimization</span><span class="chip">Hypothesis Testing</span>
+            </div>
+          </div>
+          <div class="card">
+            <p class="card__title">Tools</p>
+            <div class="chips">
+              <span class="chip">Python</span><span class="chip">SQL</span><span class="chip">Power BI</span>
+              <span class="chip">Tableau</span><span class="chip">Excel</span>
+            </div>
+          </div>
+          <div class="card">
+            <p class="card__title">Data</p>
+            <div class="chips">
+              <span class="chip">ETL</span><span class="chip">Data Modeling</span><span class="chip">Validation</span>
+              <span class="chip">Dashboards</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section id="experience" class="section container">
+        <h2>Experience</h2>
+        <div class="stack">
+          <div class="card">
+            <div class="row">
+              <div>
+                <h3>Business Analyst Intern — ICRM Software</h3>
+                <p class="muted">Impact-focused bullets (2–4 lines)</p>
+              </div>
+              <span class="pill">2024</span>
+            </div>
+            <ul class="list">
+              <li>Example: Built dashboards to track key KPIs and improved weekly reporting speed.</li>
+              <li>Example: Wrote SQL queries to extract customer metrics for stakeholder requests.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <div class="row">
+              <div>
+                <h3>Marketing Analyst Intern — Jyoti Vacuum Technologies</h3>
+                <p class="muted">Impact-focused bullets (2–4 lines)</p>
+              </div>
+              <span class="pill">2024</span>
+            </div>
+            <ul class="list">
+              <li>Example: Analyzed competitor positioning and supported marketing strategy.</li>
+              <li>Example: Automated reporting in Excel, reducing manual effort.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section container">
+        <div class="section__head">
+          <h2>Contact</h2>
+          <p class="muted">This form uses mailto (no backend). Replace email below.</p>
+        </div>
+
+        <div class="grid grid--2">
+          <div class="card">
+            <p class="card__title">Quick links</p>
+            <ul class="list">
+              <li>📧 <a href="mailto:youremail@example.com">youremail@example.com</a></li>
+              <li>💼 <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+              <li>🧑‍💻 <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a></li>
+            </ul>
+          </div>
+
+          <form class="card form" action="mailto:youremail@example.com" method="post" enctype="text/plain">
+            <label>
+              Name
+              <input name="name" required placeholder="Your name" />
+            </label>
+            <label>
+              Email
+              <input name="email" type="email" required placeholder="you@example.com" />
+            </label>
+            <label>
+              Message
+              <textarea name="message" required rows="5" placeholder="What would you like to talk about?"></textarea>
+            </label>
+            <button class="btn" type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <p class="muted">© <span id="year"></span> Shardul Suryavanshi. Built with HTML/CSS/JS.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
