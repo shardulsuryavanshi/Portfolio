@@ -14,29 +14,96 @@
     <span class="logo">Shardul</span>
     <div class="nav-links">
       <a href="#about">About</a>
+      <a href="#featured">Featured</a>
       <a href="#skills">Skills</a>
       <a href="#experience">Experience</a>
       <a href="#projects">Projects</a>
       <a href="#education">Education</a>
-      <a class="btn small" href="assets/Shardul_Suryavanshi_Resume.pdf" target="_blank">Resume</a>
+      <a class="btn small" href="assets/Shardul_Suryavanshi_Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
     </div>
   </nav>
+
+  <!-- HIGHLIGHT BAR -->
+  <div class="highlight">
+    <div class="container highlight__inner">
+      <div class="highlight__left">
+        <span class="badge">Open to Roles</span>
+        <span class="sep">•</span>
+        <span>Business Analyst / Data Analyst</span>
+        <span class="sep">•</span>
+        <span>Tempe, AZ</span>
+      </div>
+      <div class="highlight__right">
+        <a href="mailto:ssuryav3@asu.edu">ssuryav3@asu.edu</a>
+        <span class="sep">•</span>
+        <a href="https://linkedin.com/in/shardulsuryavanshi" target="_blank" rel="noreferrer">LinkedIn</a>
+        <span class="sep">•</span>
+        <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </div>
+  </div>
 </header>
 
 <main class="container">
 
 <!-- HERO -->
-<section class="hero">
-  <h1>Business Analyst & Data Analyst</h1>
-  <p class="subtitle">
-    MS Business Analytics graduate from Arizona State University (GPA 4.0) specializing in
-    forecasting, ETL, dashboards, and decision analytics using Python, SQL, Tableau, and Power BI.
-  </p>
+<section class="hero" id="top">
+  <div class="hero-grid">
+    <div class="hero-left">
+      <p class="eyebrow">MS Business Analytics (ASU) • GPA 4.0 • Graduated with Distinction</p>
+      <h1>Business Analyst & Data Analyst</h1>
+      <p class="subtitle">
+        I build forecasting models, ETL-ready datasets, and executive dashboards using
+        <strong>SQL, Python, Tableau, and Power BI</strong>—turning business requirements into decisions.
+      </p>
 
-  <div class="links">
-    <a href="https://linkedin.com/in/shardulsuryavanshi" target="_blank">LinkedIn</a>
-    <a href="https://github.com/" target="_blank">GitHub</a>
-    <a href="mailto:ssuryav3@asu.edu">Email</a>
+      <div class="cta">
+        <a class="btn" href="#projects">View Projects</a>
+        <a class="btn ghost" href="#contact">Contact</a>
+      </div>
+
+      <div class="quick-metrics">
+        <div class="qm card">
+          <div class="qm__top">
+            <!-- icon -->
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19V5h2v14H4Zm14 0V9h2v10h-2ZM9 19V12h2v7H9Zm5 0V7h2v12h-2Z"/></svg>
+            <span>Impact</span>
+          </div>
+          <p>12% cost efficiency improvement via forecasting + financial modeling.</p>
+        </div>
+
+        <div class="qm card">
+          <div class="qm__top">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 1 7l11 5 9-4.09V17h2V7L12 2Zm-7 9.27V17c0 2.76 3.13 5 7 5s7-2.24 7-5v-5.73l-7 3.18-7-3.18Z"/></svg>
+            <span>Education</span>
+          </div>
+          <p>ASU MSBA (4.0/4.0), advanced SQL, Python, Tableau, modeling.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="profile card">
+        <img class="profile__img" src="assets/profile.jpg" alt="Shardul Suryavanshi headshot" />
+        <div class="profile__meta">
+          <h3>Shardul Suryavanshi</h3>
+          <p class="muted">Business Analyst • Data Analytics • Forecasting • Dashboards</p>
+          <div class="profile__links">
+            <a href="mailto:ssuryav3@asu.edu">Email</a>
+            <a href="assets/Shardul_Suryavanshi_Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mini">
+        <p class="mini__title">Core strengths</p>
+        <ul class="mini__list">
+          <li>Requirements → BRDs, user stories, UAT</li>
+          <li>ETL + multi-source integration (SQL)</li>
+          <li>Dashboards + KPI reporting (Tableau/Power BI)</li>
+        </ul>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -44,14 +111,59 @@
 <section id="about">
   <h2>About</h2>
   <p>
-    I am a Business Analytics graduate from the W. P. Carey School of Business at Arizona State University,
-    with hands-on experience in forecasting, financial modeling, ETL pipelines, KPI reporting, and
-    cross-functional stakeholder collaboration.
+    I’m a Business Analytics graduate from the W. P. Carey School of Business at Arizona State University,
+    with experience in forecasting, financial modeling, ETL, KPI reporting, and cross-functional collaboration.
   </p>
   <p>
-    My work spans business analysis, marketing analytics, and applied machine learning, where I focus on
-    converting business requirements into scalable, data-driven insights.
+    I enjoy turning messy data into clear insights and building analytics assets that teams can use daily:
+    dashboards, requirements documentation, and decision models.
   </p>
+</section>
+
+<!-- FEATURED PROJECTS -->
+<section id="featured">
+  <div class="section-head">
+    <h2>Featured Projects</h2>
+    <p class="muted">A quick look at the work I’d most want to discuss in interviews.</p>
+  </div>
+
+  <div class="featured">
+    <article class="feature card">
+      <div class="feature__icon">
+        <!-- pulse icon -->
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h4l2-7 4 14 2-7h6v2h-5l-3 10-4-14-2 7H3v-2Z"/></svg>
+      </div>
+      <div>
+        <h3>GripLab AI – Recovery Score Model</h3>
+        <p>200-day multi-source dataset; improved predictive accuracy by 10–15% vs wearable-only scores.</p>
+        <div class="tags">Python • ML • Feature Engineering</div>
+      </div>
+    </article>
+
+    <article class="feature card">
+      <div class="feature__icon">
+        <!-- target icon -->
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 10 10h-2A8 8 0 1 1 12 4V2Zm9 1-4 4 1.5 1.5 1-1V12h2V4.5l1-1L21 3Z"/></svg>
+      </div>
+      <div>
+        <h3>Caliber.Global – KPI + Benchmarking</h3>
+        <p>Improved vendor reporting by 23% and identified 15% operational efficiency gains.</p>
+        <div class="tags">Python • Tableau • KPI Analysis</div>
+      </div>
+    </article>
+
+    <article class="feature card">
+      <div class="feature__icon">
+        <!-- pipeline icon -->
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h8v6H4V4Zm10 0h6v6h-6V4ZM4 14h6v6H4v-6Zm8 0h8v6h-8v-6ZM10 7h4v2h-4V7Zm-1 8h3v2H9v-2Z"/></svg>
+      </div>
+      <div>
+        <h3>ICRM – ETL + Requirements Delivery</h3>
+        <p>Integrated multi-source data + translated business needs into requirements, cutting timelines by 20%.</p>
+        <div class="tags">SQL • ETL • BRDs • UAT</div>
+      </div>
+    </article>
+  </div>
 </section>
 
 <!-- SKILLS -->
@@ -103,6 +215,7 @@
     <ul>
       <li>Cleaned and managed 5,000+ customer and supplier records to improve reporting accuracy.</li>
       <li>Used A/B testing and KPI analysis to increase campaign engagement by 18%.</li>
+      <li>Optimized funnels via analytics; improved conversions by 10%.</li>
       <li>Built automated Tableau dashboards enabling 15% faster insights for leadership.</li>
     </ul>
   </div>
@@ -116,29 +229,28 @@
     <div class="card">
       <h3>GripLab AI – Recovery Analytics (Capstone)</h3>
       <p>
-        Analyzed 200 days of longitudinal data from 8–10 grip devices and wearables (Oura, Whoop).
-        Built a predictive ML model integrating grip strength with wearable metrics, achieving
-        10–15% higher predictive accuracy than traditional recovery scores.
+        Analyzed a 200-day longitudinal dataset across 8–10 grip devices and wearables (Oura, Whoop) to validate grip strength
+        as an overlooked biomarker and engineer a novel “Recovery Score”.
       </p>
-      <span class="tags">Python • Machine Learning • Time Series • Feature Engineering</span>
+      <div class="tags">Python • Machine Learning • Multi-source Data</div>
     </div>
 
     <div class="card">
       <h3>Caliber.Global – Market Research Capstone</h3>
       <p>
-        Conducted KPI analysis and competitive benchmarking to improve vendor reporting by 23%.
-        Designed a strategic playbook defining 10 core KPIs and 3 go-to-market strategies.
+        Conducted KPI analysis and competitive benchmarking; improved vendor reporting by 23% and created a strategic playbook
+        with 3 go-to-market strategies and 10 core KPIs.
       </p>
-      <span class="tags">Tableau • Python • KPI Analysis • Market Strategy</span>
+      <div class="tags">Python • Tableau • Competitive Benchmarking</div>
     </div>
 
     <div class="card">
-      <h3>Automobile Industry & EV Market Analysis</h3>
+      <h3>EV Industry Analysis – Automobile Sector</h3>
       <p>
-        Performed full-scale industry analysis using SWOT, Porter’s Five Forces, and market share
-        evaluation across 5 major OEMs to identify EV growth drivers.
+        Performed full-scale EV/ICE industry analysis across 5 OEMs using SWOT and Porter’s Five Forces; translated sector data
+        into strategic insights for competitive positioning.
       </p>
-      <span class="tags">Industry Analysis • Strategy • Market Research</span>
+      <div class="tags">Market Research • Strategy • Industry Analysis</div>
     </div>
   </div>
 </section>
@@ -147,27 +259,43 @@
 <section id="education">
   <h2>Education</h2>
 
-  <div class="card">
-    <strong>MS in Business Analytics</strong><br/>
-    W. P. Carey School of Business, Arizona State University<br/>
-    GPA: 4.0 / 4.0 — Graduated with Distinction (Dec 2025)
-  </div>
+  <div class="grid">
+    <div class="card">
+      <h3>MS in Business Analytics</h3>
+      <p class="muted">W. P. Carey School of Business, Arizona State University</p>
+      <p>GPA: 4.0 / 4.0 — Graduated with Distinction (Dec 2025)</p>
+    </div>
 
-  <div class="card">
-    <strong>MBA in Marketing</strong><br/>
-    MIT World Peace University, Pune, India<br/>
-    CGPA: 7.69 / 10 (Aug 2023)
+    <div class="card">
+      <h3>MBA in Marketing</h3>
+      <p class="muted">MIT World Peace University, Pune, India</p>
+      <p>CGPA: 7.69 / 10 (Aug 2023)</p>
+    </div>
+
+    <div class="card">
+      <h3>Certifications & Methods</h3>
+      <p>Agile • UAT • Dashboards • Optimization • Lean Six Sigma</p>
+    </div>
   </div>
 </section>
 
 <!-- CONTACT -->
 <section id="contact">
   <h2>Contact</h2>
-  <p>
-    📍 Tempe, AZ<br/>
-    📧 <a href="mailto:ssuryav3@asu.edu">ssuryav3@asu.edu</a><br/>
-    🔗 <a href="https://linkedin.com/in/shardulsuryavanshi" target="_blank">LinkedIn</a>
-  </p>
+  <div class="card contact">
+    <div>
+      <p class="muted">Email</p>
+      <a href="mailto:ssuryav3@asu.edu">ssuryav3@asu.edu</a>
+    </div>
+    <div>
+      <p class="muted">LinkedIn</p>
+      <a href="https://linkedin.com/in/shardulsuryavanshi" target="_blank" rel="noreferrer">linkedin.com/in/shardulsuryavanshi</a>
+    </div>
+    <div>
+      <p class="muted">Location</p>
+      <span>Tempe, AZ</span>
+    </div>
+  </div>
 </section>
 
 <footer>
@@ -179,4 +307,3 @@
 <script src="script.js"></script>
 </body>
 </html>
-
