@@ -3,389 +3,179 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Shardul.Data | Portfolio</title>
-  <meta name="description" content="Shardul Suryavanshi — Business Analyst / Data Analyst (SQL, Python, Tableau). MS Business Analytics (ASU) GPA 4.0." />
+  <title>Shardul Suryavanshi | Business Analyst Portfolio</title>
+  <meta name="description" content="Business Analyst portfolio of Shardul Suryavanshi – SQL, Python, Tableau, Forecasting, ETL, Analytics" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-  <!-- NAV -->
-  <header class="nav-wrap">
-    <div class="container nav">
-      <a class="brand" href="#top">
-        <span class="brand__name">Shardul</span><span class="brand__dot">.</span><span class="brand__role">Data</span>
-      </a>
-
-      <nav class="nav__links">
-        <a href="#about">About</a>
-        <a href="#competencies">Competencies</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
+<header class="header">
+  <nav class="container nav">
+    <span class="logo">Shardul</span>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a class="btn small" href="assets/Shardul_Suryavanshi_Resume.pdf" target="_blank">Resume</a>
     </div>
-    <div class="nav-accent"></div>
-  </header>
+  </nav>
+</header>
 
-  <!-- HERO -->
-  <section id="top" class="hero">
-    <div class="container hero__grid">
-      <div class="hero__left">
-        <div class="pill">
-          MS in Business Analytics • GPA 4.0/4.0 • Graduated with Distinction
-        </div>
+<main class="container">
 
-        <h1 class="hero__title">
-          Transforming Data<br />
-          into <span class="hero__accent">Strategic Growth</span>
-        </h1>
+<!-- HERO -->
+<section class="hero">
+  <h1>Business Analyst & Data Analyst</h1>
+  <p class="subtitle">
+    MS Business Analytics graduate from Arizona State University (GPA 4.0) specializing in
+    forecasting, ETL, dashboards, and decision analytics using Python, SQL, Tableau, and Power BI.
+  </p>
 
-        <p class="hero__sub">
-          Master’s graduate in Business Analytics with advanced skills in SQL, Python, Tableau, and statistical modeling.
-          Strong background in forecasting, requirements gathering, ETL, reporting automation, and stakeholder collaboration.
-        </p>
+  <div class="links">
+    <a href="https://linkedin.com/in/shardulsuryavanshi" target="_blank">LinkedIn</a>
+    <a href="https://github.com/" target="_blank">GitHub</a>
+    <a href="mailto:ssuryav3@asu.edu">Email</a>
+  </div>
+</section>
 
-        <div class="hero__cta">
-          <a class="btn btn--primary" href="#contact">
-            <span class="btn__icon">✉</span> Get in Touch
-          </a>
-          <a class="btn btn--ghost" href="assets/Shardul_Suryavanshi_Resume.pdf" target="_blank" rel="noreferrer">
-            <span class="btn__icon">⬇</span> Download Resume
-          </a>
-        </div>
+<!-- ABOUT -->
+<section id="about">
+  <h2>About</h2>
+  <p>
+    I am a Business Analytics graduate from the W. P. Carey School of Business at Arizona State University,
+    with hands-on experience in forecasting, financial modeling, ETL pipelines, KPI reporting, and
+    cross-functional stakeholder collaboration.
+  </p>
+  <p>
+    My work spans business analysis, marketing analytics, and applied machine learning, where I focus on
+    converting business requirements into scalable, data-driven insights.
+  </p>
+</section>
 
-        <div class="availability">
-          <div class="availability__icon">📅</div>
-          <div>
-            <div class="availability__title">
-              <strong>Availability:</strong> Full-time roles starting <strong>Feb 2026</strong>
-            </div>
-            <div class="availability__meta">
-              Tempe, AZ • Open to Remote & Relocation (US)
-            </div>
-          </div>
-        </div>
-      </div>
+<!-- SKILLS -->
+<section id="skills">
+  <h2>Skills</h2>
 
-      <div class="hero__right">
-        <div class="portrait-ring">
-          <img class="portrait" src="assets/profile.jpg" alt="Shardul Suryavanshi" />
-        </div>
-      </div>
+  <div class="grid">
+    <div class="card">
+      <h3>Languages & Databases</h3>
+      <p>Python (Pandas, NumPy, Seaborn, Gurobi), SQL, Netezza SQL, Snowflake, BigQuery</p>
     </div>
-  </section>
 
-  <!-- ABOUT (optional top spacing like reference, but still simple) -->
-  <section id="about" class="section">
-    <div class="container">
-      <div class="section__head">
-        <h2>About</h2>
-        <p>
-          I focus on converting business needs into actionable requirements and analytics assets—ETL-ready datasets,
-          dashboards, forecasting models, and clear stakeholder communication.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- BEYOND THE RESUME -->
-  <section class="section">
-    <div class="container">
-      <div class="center-title">
-        <h2>Beyond the Resume</h2>
-        <div class="underline"></div>
-      </div>
-
-      <div class="beyond">
-        <div class="card big-card">
-          <h3>My Analytics Philosophy</h3>
-          <p>
-            I believe analytics isn’t just about numbers—it’s about <strong>clarity</strong>.
-            My approach combines rigorous analysis with business context to build tools and insights that teams can actually use.
-          </p>
-          <p>
-            Whether I’m forecasting costs, defining requirements, or building dashboards, my goal is the same:
-            <strong>reduce ambiguity</strong> and <strong>accelerate decision-making</strong>.
-          </p>
-        </div>
-
-        <div class="beyond__right">
-          <div class="mini-feature">
-            <div class="mini-feature__icon mini-feature__icon--blue">
-              <!-- shield -->
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 4 5v6c0 5 3.4 9.7 8 11 4.6-1.3 8-6 8-11V5l-8-3Zm0 18.1c-3.1-1.1-6-4.6-6-9.1V6.4L12 4l6 2.4V11c0 4.5-2.9 8-6 9.1Z"/></svg>
-            </div>
-            <div>
-              <h4>Requirements First</h4>
-              <p>Clear user stories, BRDs, and UAT to align stakeholders and reduce rework.</p>
-            </div>
-          </div>
-
-          <div class="mini-feature">
-            <div class="mini-feature__icon mini-feature__icon--purple">
-              <!-- bolt -->
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2 3 14h7l-1 8 12-14h-7l-1-6Z"/></svg>
-            </div>
-            <div>
-              <h4>Performance & Automation</h4>
-              <p>ETL + reporting automation to speed insights and improve consistency.</p>
-            </div>
-          </div>
-
-          <div class="mini-feature">
-            <div class="mini-feature__icon mini-feature__icon--green">
-              <!-- users -->
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 11c1.7 0 3-1.3 3-3s-1.3-3-3-3-3 1.3-3 3 1.3 3 3 3ZM8 11c1.7 0 3-1.3 3-3S9.7 5 8 5 5 6.3 5 8s1.3 3 3 3Zm0 2c-2.7 0-8 1.3-8 4v2h10v-2c0-1.1.4-2 1.1-2.7C10.2 13.5 9 13 8 13Zm8 0c-1 0-2.2.5-3.1 1.3.7.7 1.1 1.6 1.1 2.7v2h10v-2c0-2.7-5.3-4-8-4Z"/></svg>
-            </div>
-            <div>
-              <h4>Stakeholder-Centric Delivery</h4>
-              <p>Cross-functional collaboration with measurable outcomes and executive-ready reporting.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CORE COMPETENCIES -->
-  <section id="competencies" class="section section--gray">
-    <div class="container">
-      <div class="center-title">
-        <h2>Core Competencies</h2>
-        <p class="muted">A snapshot of my technical and analytical capabilities.</p>
-      </div>
-
-      <div class="competencies">
-        <div class="comp-card">
-          <div class="comp-icon comp-icon--blue">🗄️</div>
-          <h3>Data & ETL</h3>
-          <p>SQL, multi-source integration, ETL methods, data cleaning, reporting automation.</p>
-        </div>
-
-        <div class="comp-card">
-          <div class="comp-icon comp-icon--purple">📊</div>
-          <h3>Dashboards & BI</h3>
-          <p>Tableau, Power BI, KPI design, executive reporting, data storytelling.</p>
-        </div>
-
-        <div class="comp-card">
-          <div class="comp-icon comp-icon--teal">🧭</div>
-          <h3>Business Analysis</h3>
-          <p>User stories, BRDs, UAT, SDLC support, requirements gathering & documentation.</p>
-        </div>
-
-        <div class="comp-card">
-          <div class="comp-icon comp-icon--orange">🧠</div>
-          <h3>Forecasting & Modeling</h3>
-          <p>Python, statistical modeling, predictive modeling, optimization & decision analysis.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- EXPERIENCE (timeline) -->
-  <section id="experience" class="section">
-    <div class="container">
-      <h2>Professional Experience</h2>
-
-      <div class="timeline">
-        <div class="tl-line"></div>
-
-        <article class="tl-item">
-          <div class="tl-dot"></div>
-          <div class="tl-content">
-            <div class="tl-top">
-              <div>
-                <h3>Business Analyst Intern</h3>
-                <a class="company" href="#" onclick="return false;">ICRM Software Pvt. Ltd.</a>
-              </div>
-              <span class="date-pill">Dec 2023 – Mar 2024</span>
-            </div>
-            <ul>
-              <li>Improved cost efficiency by <strong>12%</strong> via financial modeling and forecasting using Python and Excel.</li>
-              <li>Converted business needs into actionable requirements, accelerating delivery timelines by <strong>20%</strong>.</li>
-              <li>Integrated multi-source data using SQL and ETL methods, improving segmentation accuracy by <strong>15%</strong>.</li>
-              <li>Managed SDLC via user stories, BRDs, and UAT, improving cross-functional clarity by <strong>25%</strong>.</li>
-            </ul>
-          </div>
-        </article>
-
-        <article class="tl-item">
-          <div class="tl-dot tl-dot--light"></div>
-          <div class="tl-content">
-            <div class="tl-top">
-              <div>
-                <h3>Marketing Analyst Intern</h3>
-                <a class="company" href="#" onclick="return false;">Jyoti Vacuum Technologies Pvt. Ltd.</a>
-              </div>
-              <span class="date-pill">May 2022 – Aug 2022</span>
-            </div>
-            <ul>
-              <li>Managed and cleaned <strong>5,000+</strong> customer/supplier records to improve reporting accuracy.</li>
-              <li>Used A/B testing and KPIs to improve targeting precision, increasing engagement by <strong>18%</strong>.</li>
-              <li>Optimized funnels using analytics, resulting in a <strong>10%</strong> increase in conversion rates.</li>
-              <li>Designed automated Tableau dashboards enabling <strong>15%</strong> faster business insights.</li>
-            </ul>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- FEATURED PROJECTS (image cards like reference) -->
-  <section id="projects" class="section section--gray">
-    <div class="container">
-      <h2>Featured Projects</h2>
-
-      <div class="featured-grid">
-        <article class="project-card">
-          <div class="project-img">
-            <img src="assets/featured-1.jpg" alt="Caliber.Global Project" />
-          </div>
-          <div class="project-body">
-            <div class="project-top">
-              <div class="project-badge">
-                <span class="badge-icon badge-icon--teal">🌐</span>
-              </div>
-              <div class="project-type">MARKET RESEARCH</div>
-            </div>
-
-            <h3>Strategic Market Analysis</h3>
-            <div class="project-sub">Caliber.Global • Capstone</div>
-            <p>
-              Conducted comprehensive KPI analysis and competitive benchmarking to architect a strategic playbook for a new service line.
-            </p>
-            <ul class="project-bullets">
-              <li>Improved vendor reporting by <strong>23%</strong></li>
-              <li>Identified <strong>15%</strong> operational efficiency gains</li>
-              <li>Defined <strong>10</strong> core KPIs + 3 go-to-market strategies</li>
-            </ul>
-
-            <div class="chips">
-              <span class="chip">Python</span>
-              <span class="chip">Tableau</span>
-              <span class="chip">KPI Analysis</span>
-            </div>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-img">
-            <img src="assets/featured-2.jpg" alt="GripLab AI Project" />
-          </div>
-          <div class="project-body">
-            <div class="project-top">
-              <div class="project-badge">
-                <span class="badge-icon badge-icon--purple">🧩</span>
-              </div>
-              <div class="project-type">PREDICTIVE ML</div>
-            </div>
-
-            <h3>Grip Strength Recovery Model</h3>
-            <div class="project-sub">GripLab AI • Capstone</div>
-            <p>
-              Analyzed a 200-day longitudinal dataset (8–10 grip devices + Oura/Whoop) and engineered a novel “Recovery Score”.
-            </p>
-            <ul class="project-bullets">
-              <li>Achieved <strong>10–15%</strong> higher predictive accuracy</li>
-              <li>Integrated multi-source wearable + grip data</li>
-              <li>Built an end-to-end ML pipeline in Python</li>
-            </ul>
-
-            <div class="chips">
-              <span class="chip">Machine Learning</span>
-              <span class="chip">Python</span>
-              <span class="chip">Wearable Data</span>
-            </div>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- EDUCATION + CERTIFICATIONS (2-column like reference) -->
-  <section class="section">
-    <div class="container">
-      <div class="edu-cert">
-        <div>
-          <div class="side-title">
-            <span class="side-ico">🎓</span>
-            <h2>Education</h2>
-          </div>
-
-          <div class="edu-item">
-            <div class="edu-line"></div>
-            <div>
-              <h3>MS in Business Analytics</h3>
-              <p class="muted">Arizona State University, W. P. Carey School of Business</p>
-              <div class="edu-meta">
-                <span class="edu-date">Dec 2025</span>
-                <span class="edu-pill">GPA: 4.0/4.0</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="edu-item">
-            <div class="edu-line"></div>
-            <div>
-              <h3>MBA in Marketing</h3>
-              <p class="muted">MIT World Peace University, Pune, India</p>
-              <div class="edu-meta">
-                <span class="edu-date">Aug 2023</span>
-                <span class="edu-pill">CGPA: 9.38/10</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <div class="side-title">
-            <span class="side-ico">🏅</span>
-            <h2>Certifications</h2>
-          </div>
-
-          <div class="cert-list">
-            <div class="cert-card">
-              <span class="cert-medal">🏅</span>
-              <span>Lean Six Sigma (Methods & Applications)</span>
-            </div>
-            <div class="cert-card">
-              <span class="cert-medal">🏅</span>
-              <span>Agile • Jira • SDLC • UAT</span>
-            </div>
-            <div class="cert-card">
-              <span class="cert-medal">🏅</span>
-              <span>MS Power Platform (Power BI, Power Apps, Power Automate)</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA FOOTER (dark block like reference) -->
-  <section id="contact" class="cta-footer">
-    <div class="container cta-footer__inner">
-      <h2>Let’s Work Together</h2>
+    <div class="card">
+      <h3>Analytics & Methods</h3>
       <p>
-        I’m currently seeking full-time opportunities in Business Analytics / Data Analytics starting Feb 2026.
+        Forecasting, ETL, Data Cleaning, Feature Engineering, Predictive / Prescriptive Modeling,
+        Optimization, Risk Modeling, A/B Testing
       </p>
-
-      <div class="cta-footer__links">
-        <a class="footer-link" href="mailto:ssuryav3@asu.edu">ssuryav3@asu.edu</a>
-        <span class="dot">•</span>
-        <a class="footer-link" target="_blank" rel="noreferrer" href="https://linkedin.com/in/shardulsuryavanshi">LinkedIn</a>
-        <span class="dot">•</span>
-        <a class="footer-link" target="_blank" rel="noreferrer" href="https://github.com/">GitHub</a>
-      </div>
-
-      <div class="copyright">
-        © <span id="year"></span> Shardul Suryavanshi
-      </div>
     </div>
-  </section>
 
-  <script src="script.js"></script>
+    <div class="card">
+      <h3>Tools & Platforms</h3>
+      <p>
+        Tableau, Power BI, Excel Solver, Jupyter Notebook, Git, Jira, Minitab,
+        MS Power Platform (Power BI, Power Apps, Power Automate)
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <h2>Professional Experience</h2>
+
+  <div class="card">
+    <h3>Business Analyst Intern – ICRM Software</h3>
+    <span class="meta">Dec 2023 – Mar 2024 | Pune, India</span>
+    <ul>
+      <li>Improved cost efficiency by 12% through financial modeling and forecasting using Python and Excel.</li>
+      <li>Translated business needs into actionable requirements, reducing delivery timelines by 20%.</li>
+      <li>Integrated multi-source data using SQL and ETL pipelines, improving customer segmentation accuracy by 15%.</li>
+      <li>Managed SDLC artifacts including User Stories, BRDs, and UAT documentation.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Marketing Analyst Intern – Jyoti Vacuum Technologies</h3>
+    <span class="meta">May 2022 – Aug 2022 | Pune, India</span>
+    <ul>
+      <li>Cleaned and managed 5,000+ customer and supplier records to improve reporting accuracy.</li>
+      <li>Used A/B testing and KPI analysis to increase campaign engagement by 18%.</li>
+      <li>Built automated Tableau dashboards enabling 15% faster insights for leadership.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Academic & Capstone Projects</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>GripLab AI – Recovery Analytics (Capstone)</h3>
+      <p>
+        Analyzed 200 days of longitudinal data from 8–10 grip devices and wearables (Oura, Whoop).
+        Built a predictive ML model integrating grip strength with wearable metrics, achieving
+        10–15% higher predictive accuracy than traditional recovery scores.
+      </p>
+      <span class="tags">Python • Machine Learning • Time Series • Feature Engineering</span>
+    </div>
+
+    <div class="card">
+      <h3>Caliber.Global – Market Research Capstone</h3>
+      <p>
+        Conducted KPI analysis and competitive benchmarking to improve vendor reporting by 23%.
+        Designed a strategic playbook defining 10 core KPIs and 3 go-to-market strategies.
+      </p>
+      <span class="tags">Tableau • Python • KPI Analysis • Market Strategy</span>
+    </div>
+
+    <div class="card">
+      <h3>Automobile Industry & EV Market Analysis</h3>
+      <p>
+        Performed full-scale industry analysis using SWOT, Porter’s Five Forces, and market share
+        evaluation across 5 major OEMs to identify EV growth drivers.
+      </p>
+      <span class="tags">Industry Analysis • Strategy • Market Research</span>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <h2>Education</h2>
+
+  <div class="card">
+    <strong>MS in Business Analytics</strong><br/>
+    W. P. Carey School of Business, Arizona State University<br/>
+    GPA: 4.0 / 4.0 — Graduated with Distinction (Dec 2025)
+  </div>
+
+  <div class="card">
+    <strong>MBA in Marketing</strong><br/>
+    MIT World Peace University, Pune, India<br/>
+    CGPA: 9.38 / 10 (Aug 2023)
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact</h2>
+  <p>
+    📍 Tempe, AZ<br/>
+    📧 <a href="mailto:ssuryav3@asu.edu">ssuryav3@asu.edu</a><br/>
+    🔗 <a href="https://linkedin.com/in/shardulsuryavanshi" target="_blank">LinkedIn</a>
+  </p>
+</section>
+
+<footer>
+  © <span id="year"></span> Shardul Suryavanshi
+</footer>
+
+</main>
+
+<script src="script.js"></script>
 </body>
 </html>
-
